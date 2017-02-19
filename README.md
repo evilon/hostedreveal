@@ -4,6 +4,9 @@ from .md
 
 ![pic](reveal.jpg)
 
+Note:
+* Speakers notes go here
+
 
 
 ## Goals
@@ -21,10 +24,50 @@ from .md
 * "It works"
 
 
+## Example 1
+
+Background & Fragments
+
+<!-- .slide: data-background="#aa2222" -->
+
+* Fragment 1 <!-- .element: class="fragment" data-fragment-index="1" -->
+
+
+## Example: Background Image
+<!-- .slide: data-background-image="background.jpg" -->
+
+AWESOME!
+
+
+## Example: Code
+
+```shell
+echo "Hello world."
+exit 0
+```
+
+
+## Example: Autoplay Video
+<video data-autoplay class="stretch" src="breakout.mov"></video>
+
+
+<div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10; background-color: rgba(33, 33, 33, 0.3);">
+<h1>Example</h1>
+<h2>background video</h2>
+
+<!-- .slide: data-background-video="breakout.mov" data-background-video-loop="true"-->
+<!-- .slide: data-background="#000000" -->
+<span style="color: rgb(255, 0, 136);">
+This is the color.
+</span>
+This is not.
+</div>
+
+
 
 ## I like
 
-* Repo-centric workflow.
+* Repo-centric workflow
 * Matches other workflows
   * Atom with linting
   * Publish in Github
@@ -46,7 +89,7 @@ from .md
 
 * Styling
 * Publishing:
-  * Rendered presentation with GitHub pages? (Most likely won't work)
+  * Rendered presentation with GitHub pages?
   * -> Publish: .md file and PDF. Presentations locally.
 
 

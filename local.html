@@ -2,6 +2,13 @@
     <head>
         <link rel="stylesheet" href="css/reveal.css">
         <link rel="stylesheet" href="css/theme/white.css">
+        <script>
+          var link = document.createElement( 'link' );
+          link.rel = 'stylesheet';
+          link.type = 'text/css';
+          link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+          document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
     </head>
     <body>
         <div class="reveal">
@@ -20,6 +27,12 @@
         <script>
             Reveal.initialize({
               dependencies: [
+                // Zoom in and out with Alt+click
+                { src: 'plugin/zoom-js/zoom.js', async: true },
+                // Speaker notes - not working correctly ATM
+                // { src: 'plugin/notes/notes.js', async: true },
+                // Syntax highlight for <code> elements
+                { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
                 { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
                 { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } }
 
