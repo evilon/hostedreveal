@@ -1,0 +1,8 @@
+package.json
+Gruntfile.js
+head.min.js
+css/
+js/
+lib/
+plugin/
+node_modules/

@@ -2,6 +2,8 @@
 <!-- markdownlint-disable MD012 -->
 from .md
 
+![pic](reveal.jpg)
+
 
 
 ## Goals
@@ -32,7 +34,9 @@ from .md
 ## I'm dubious about
 
 * Copy-paste code in repo, css/js/lib
-  * .md parsing to work locally, had to download:
+* Not shipped in this package, you need your own
+  [reveal.js checkout](https://github.com/hakimel/reveal.js/)
+  * for .md parsing to work locally, had to download:
    [head.min.js](https://cdnjs.cloudflare.com/ajax/libs/headjs/0.96/head.min.js)
    separately
 
