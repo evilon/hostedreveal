@@ -49,18 +49,15 @@ from .md
 
 ## Standalone Setup
 
-```#!shell
-mkdir preso
-cd preso
-curl https://cdnjs.cloudflare.com/ajax/libs/headjs/0.96/head.min.js >head.min.js
-```
-
-* Copy example:
-  * local.html & slides.md
-* reveal.js files
+* Checkout / Fork this repo
+* Go to the repo-dir
+* Copy some reveal.js files
   * package.json & Gruntfile.js
   * js/ css/ plugin/ lib/
-
+* Download:
+```#!shell
+curl https://cdnjs.cloudflare.com/ajax/libs/headjs/0.96/head.min.js >head.min.js
+```
 
 ## Run locally
 
