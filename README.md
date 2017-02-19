@@ -67,3 +67,5 @@ curl https://cdnjs.cloudflare.com/ajax/libs/headjs/0.96/head.min.js >head.min.js
 npm install
 npm start
 ```
+
+* Select [local.html](http://localhost:8000/local.html)
