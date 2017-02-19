@@ -50,6 +50,8 @@ exit 0
 ## Example: Autoplay Video
 <video data-autoplay class="stretch" src="breakout.mov"></video>
 
+Original: <https://www.youtube.com/watch?v=efexDg5q7Dw>
+
 
 <div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10; background-color: rgba(33, 33, 33, 0.3);">
 <h1>Example</h1>
