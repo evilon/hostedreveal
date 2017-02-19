@@ -1,0 +1,70 @@
+# Running reveal.js
+<!-- markdownlint-disable MD012 -->
+from .md
+
+
+
+## Goals
+
+* Use reveal.js, because:
+  * it is nice
+* Content in .md, because:
+  * direct github views
+  * simpler than html
+
+
+
+## Status
+
+* "It works"
+
+
+
+## I like
+
+* Repo-centric workflow.
+* Matches other workflows
+  * Atom with linting
+  * Publish in Github
+
+
+
+## I'm dubious about
+
+* Copy-paste code in repo, css/js/lib
+  * .md parsing to work locally, had to download:
+   [head.min.js](https://cdnjs.cloudflare.com/ajax/libs/headjs/0.96/head.min.js)
+   separately
+
+
+
+## Further study
+
+* Styling
+* Publishing:
+  * Rendered presentation with GitHub pages? (Most likely won't work)
+  * -> Publish: .md file and PDF. Presentations locally.
+
+
+
+## Standalone Setup
+
+```#!shell
+mkdir preso
+cd preso
+curl https://cdnjs.cloudflare.com/ajax/libs/headjs/0.96/head.min.js >head.min.js
+```
+
+* Copy example:
+  * local.html & slides.md
+* reveal.js files
+  * package.json & Gruntfile.js
+  * js/ css/ plugin/ lib/
+
+
+## Run locally
+
+```#!shell
+npm install
+npm start
+```
