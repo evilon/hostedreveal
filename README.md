@@ -24,19 +24,24 @@ Note:
 * "It works"
 
 
-## Example 1
-
-Background & Fragments
+## Example: Fragments
 
 <!-- .slide: data-background="#aa2222" -->
 
 * Fragment 1 <!-- .element: class="fragment" data-fragment-index="1" -->
 
 
-## Example: Background Image
+## Example: Background Image <!-- .element: class="transparent-black" -->
 <!-- .slide: data-background-image="background.jpg" -->
 
-AWESOME!
+AWESOME! <!-- .element: class="transparent-white" -->
+
+
+## Highlighted words.
+
+Highlighted Lorem Ipsum <!-- .element: class="highlight-red" -->
+
+Not Highlighted
 
 
 ## Example: Code
@@ -53,18 +58,15 @@ exit 0
 Original: <https://www.youtube.com/watch?v=efexDg5q7Dw>
 
 
-<div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10; background-color: rgba(33, 33, 33, 0.3);">
-<h1>Example</h1>
-<h2>background video</h2>
+## Example: Background Video <!-- .element: class="transparent-white" -->
 
 <!-- .slide: data-background-video="breakout.mov" data-background-video-loop="true"-->
 <!-- .slide: data-background="#000000" -->
-<span style="color: rgb(255, 0, 136);">
-This is the color.
-</span>
-This is not.
-</div>
 
+Still need to use raw HTML to <!-- .element: class="transparent-white" -->
+<span style="color: rgb(255, 0, 136);">
+override color.
+</span>
 
 
 ## I like
