@@ -1,10 +1,14 @@
 # Running reveal.js
+
 <!-- markdownlint-disable MD012 -->
+<!-- markdownlint-disable MD033 -->
+
 from .md
 
 ![pic](reveal.jpg)
 
 Note:
+
 * Speakers notes go here
 
 
@@ -37,7 +41,7 @@ Note:
 AWESOME! <!-- .element: class="transparent-white" -->
 
 
-## Highlighted words.
+## Highlighted words
 
 Highlighted Lorem Ipsum <!-- .element: class="highlight-red" -->
 
@@ -53,6 +57,7 @@ exit 0
 
 
 ## Example: Autoplay Video
+
 <video data-autoplay class="stretch" src="breakout.mov"></video>
 
 Original: <https://www.youtube.com/watch?v=efexDg5q7Dw>
@@ -106,6 +111,7 @@ override color.
   * package.json & Gruntfile.js
   * js/ css/ plugin/ lib/
 * Download:
+
 ```#!shell
 curl https://cdnjs.cloudflare.com/ajax/libs/headjs/0.96/head.min.js >head.min.js
 ```
@@ -120,3 +126,6 @@ npm start
 ```
 
 * Select [local.html](http://localhost:8000/local.html)
+
+<!-- markdownlint-enable MD012 -->
+<!-- markdownlint-enable MD033 -->
