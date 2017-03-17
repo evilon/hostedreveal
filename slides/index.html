@@ -30,13 +30,13 @@
             Reveal.initialize({
               dependencies: [
                 // Zoom in and out with Alt+click
-                { src: 'reveal/3.4.1/plugin/zoom-js/zoom.js', async: true },
+                { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
                 // Speaker notes - not working correctly ATM
                 // { src: 'plugin/notes/notes.js', async: true },
                 // Syntax highlight for <code> elements
-                { src: 'reveal/3.4.1/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-                { src: 'reveal/3.4.1/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                { src: 'reveal/3.4.1/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } }
+                { src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } }
 
               ]
             });
