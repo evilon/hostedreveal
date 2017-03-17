@@ -1,8 +1,8 @@
 <html>
     <head>
-        <link rel="stylesheet" href="css/reveal.css">
-        <link rel="stylesheet" href="css/theme/white.css">
-        <link rel="stylesheet" href="custom.css">
+        <link rel="stylesheet" href="reveal/3.4.1/css/reveal.css">
+        <link rel="stylesheet" href="reveal/3.4.1/css/theme/white.css">
+        <link rel="stylesheet" href="reveal/custom.css">
 
         <script>
           var link = document.createElement( 'link' );
@@ -23,20 +23,20 @@
                 </section>
             </div>
         </div>
-        <script src="js/reveal.js"></script>
-        <script src="head.min.js"></script>
+        <script src="reveal/3.4.1/js/reveal.js"></script>
+        <script src="reveal/head.min.js"></script>
 
         <script>
             Reveal.initialize({
               dependencies: [
                 // Zoom in and out with Alt+click
-                { src: 'plugin/zoom-js/zoom.js', async: true },
+                { src: 'reveal/3.4.1/plugin/zoom-js/zoom.js', async: true },
                 // Speaker notes - not working correctly ATM
                 // { src: 'plugin/notes/notes.js', async: true },
                 // Syntax highlight for <code> elements
-                { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-                { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } }
+                { src: 'reveal/3.4.1/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: 'reveal/3.4.1/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'reveal/3.4.1/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } }
 
               ]
             });
